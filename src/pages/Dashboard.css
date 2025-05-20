@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h3,h4{
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.dahboard-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.card{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.dahboard-grid h4{
+    color: #4b5563
+}
+.dahboard-grid p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1f2937;
+}
+.dahboard-largerCard{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+tr{
+    color: #4b5563;
+}
+th,td{padding: 0.5rem;}
+tbody tr{
+    border-top: 1px solid #e5e7eb;
+}

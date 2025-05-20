@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h3{
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #1f2937;
+}
+.grid-holder{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+.grid-holder div{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.grid-holder div h4{
+    color: #4b5563;
+}
+.grid-holder div>p{
+font-size: 1.5rem;
+font-weight: bold;
+color: #1f2937;
+}
+
+.chart-holder{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.chart-holder h4{
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+.chart{
+    height: 300px;
+   }
