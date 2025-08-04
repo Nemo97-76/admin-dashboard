@@ -40,9 +40,9 @@ The **Admin Dashboard** is a web application designed to provide an intuitive in
 - Customize the dashboard by modifying the configuration files or adding new widgets.
 
 ## Demo
--**live demo**:<a href="https://admindashboard-v1.netlify.app/login"/>Demo</a>
+-**live demo**: <a href="https://admindashboard-v1.netlify.app/login"/>Demo</a>
 
 
 ## Contact
 - **Email**: tasneemyousse61@gmail.com
-- **Linkedin**:<a href="https://www.linkedin.com/in/tasneem-youssef-770708278"/>Linkedin</a>
+- **Linkedin**: <a href="https://www.linkedin.com/in/tasneem-youssef-770708278"/>Linkedin</a>
