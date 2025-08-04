@@ -38,7 +38,7 @@ The **Admin Dashboard** is designed to provide an user-friendly interface for ma
 - Customize the dashboard by modifying the configuration files or adding new widgets.
 
 ## Demo
--**live demo**: <a href="https://admindashboard-v1.netlify.app/login"/>Demo</a>
+- **live demo**: <a href="https://admindashboard-v1.netlify.app/login"/>Demo</a>
 
 
 ## Contact
