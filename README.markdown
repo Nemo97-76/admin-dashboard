@@ -1,7 +1,7 @@
 # Admin Dashboard
 
 ## Overview
-The **Admin Dashboard** is a web application designed to provide an intuitive interface for managing and visualizing administrative tasks, user data, or system metrics. This project aims to simplify administrative workflows with a clean, responsive, and user-friendly design.
+The **Admin Dashboard** is designed to provide an user-friendly interface for managing administrative tasks, user data, or system metrics. This project aims to simplify administrative workflows with a clean, responsive and design.
 
 ## Features
 - **Dashboard Overview**: Displays key metrics and insights in a concise and visually appealing format.
@@ -11,10 +11,8 @@ The **Admin Dashboard** is a web application designed to provide an intuitive in
 - **Secure Authentication**: Supports secure login and user session management.
 
 ## Technologies Used
-- **Frontend**: HTML, CSS, JavaScript (e.g., React, Vue.js, or vanilla JS)
-- **Backend**: Node.js, Express, or another backend framework (if applicable)
-- **Database**: MongoDB, MySQL, or another database (if applicable)
-- **Other Libraries**: Chart.js, Bootstrap, or similar for visualizations and styling
+- **Frontend**: HTML, CSS, JavaScript (React, vite)
+- **Other Libraries**: Chart.js and Bootstrap.
 
 ## Installation
 1. Clone the repository:
