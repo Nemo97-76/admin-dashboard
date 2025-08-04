@@ -3,6 +3,32 @@
   padding: 0;
   list-style: none;
 }
+
+:root[data-theme='light'] {
+--background: #f1f5f9;
+  --card-bg: #ffffff;
+  --text-color: #1f2937;
+  --text-secondary: #4b5563;
+  --border-color: #e5e7eb;
+  --primary: #3b82f6;
+  --error: #ef4444;
+  --input-bg: #ffffff;
+}
+:root[data-theme="dark"] {
+  --background: #1f2937;
+  --card-bg: #374151;
+  --text-color: #f9fafb;
+  --text-secondary: #9ca3af;
+  --border-color: #4b5563;
+  --primary: #60a5fa;
+  --error: #f87171;
+  --input-bg: #4b5563;
+}
+body{
+   font-family: Arial, sans-serif;
+  background-color: var(--background);
+  color: var(--text-color);
+}
 /*header*/
 header{
  background-color: #fff;
@@ -112,8 +138,13 @@ li{margin-bottom: 0.5rem;}
   align-items: center;
   height: 100vh;
   background-color: #f1f5f9;
+/*  background-color: var(--background);*/
+ 
 }
 .formHolder{
+  /*
+  background-color: var(--card-bg);
+  */
   background-color: #fff;
   padding: 2rem;
   border-radius: 0.5rem;
@@ -122,6 +153,7 @@ li{margin-bottom: 0.5rem;}
   max-width: 400px;
 }
 .formHolder h1{
+  /*color:var(--text-color);*/
   font-size: 1.5rem;
   font-weight: bold;
   color: #1f2937;
@@ -129,6 +161,7 @@ li{margin-bottom: 0.5rem;}
   text-align: center;
 }
 .formHolder p{
+  /*color:var(--error);*/
   color: #ef4444;
   margin-bottom: 1rem;
   text-align: center;
@@ -141,6 +174,7 @@ li{margin-bottom: 0.5rem;}
   font-size: 0.875rem;
   color: #4b5563;
   margin-bottom: 0.25rem;
+  /*color:var(--text-secondary);*/
 }
 .emailHolder input,.passHolder input{
   width: 100%;
@@ -149,11 +183,15 @@ li{margin-bottom: 0.5rem;}
   border: 1px solid #e5e7eb;
   font-size: 1rem;
   color: #4b5563;
+/*border:1px solid var(border-color);
+color:var(--text-color);
+background-color: var(--input-bg);*/  
 }
 .passHolder{
   margin-bottom: 1.5rem;
 }
 .loginBtn{
+  /*background-color:var(--primary);*/
   width: 100%;
   padding: 0.75rem;
   background-color: #3b80f6;

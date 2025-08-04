@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Sidebar from './components/Sidebar';
 import Header from './components/Header';
 import Dashboard from './pages/Dashboard';
@@ -10,10 +10,21 @@ import Analytics from './pages/Analytics.jsx';
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
+
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
 
+  const toggleTheme = () => {
+    const newTheme = theme === 'light' ? 'dark' : 'light';
+    setTheme(newTheme);
+    localStorage.setItem('theme', newTheme);
+  }
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+  },[theme])
   const renderProtectedRoute = (element) => (
     isAuthenticated ? (
       <div style={{ display: 'flex', height: '100vh', backgroundColor: '#f1f5f9' }}>
@@ -44,7 +55,7 @@ function App() {
       />
       <Route path='/' element={renderProtectedRoute(<Dashboard />)} />
       <Route path='/users' element={renderProtectedRoute(<Users />)} />
-      <Route path='/settings' element={renderProtectedRoute(<Settings />)} />
+      <Route path='/settings' element={renderProtectedRoute(<Settings theme={theme} toggleTheme={toggleTheme} />)} />
       <Route path='/analytics' element={renderProtectedRoute(<Analytics />)} />
       
     

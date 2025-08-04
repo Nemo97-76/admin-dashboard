@@ -4,6 +4,20 @@
   box-sizing: border-box;
 }
 
+:root[data-theme='light'] {
+--card-bg: #ffffff;
+--border-color: #e5e7eb;
+--text-color: #1f2937;
+--input-bg: #ffffff;
+--primary: #3b82f6;
+}
+:root[data-theme='dark'] {
+   --card-bg: #374151;
+   --border-color: #4b5563;
+   --text-color: #f9fafb;
+    --input-bg: #4b5563;
+    --primary: #60a5fa;
+}
 body {
   font-family: Arial, sans-serif;
 }
@@ -15,6 +29,7 @@ h3,h4{
   color: #1f2937;
 }
 .card{
+  /*background-color: var(--card-bg)*/
   background-color: #fff;
   border-radius: 0.5rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -30,6 +45,11 @@ label{
   margin-bottom: 0.25rem
 }
 input{
+  /*
+  border: 1px solid var(--border-color);
+  background-color: var(--input-bg);
+  color: var(--text-color);
+  */
   width: 100%;
   padding: 0.5rem;
   border: 1px solid #e5e7eb;
@@ -41,6 +61,9 @@ input{
   margin-bottom: 1.5rem;
 }
 .settingBTN{
+  /*
+ background-color: var(--primary) 
+  */
   padding:0.75rem;
   background-color: #3b82f6;
   color: #fff;
