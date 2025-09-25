@@ -31,14 +31,13 @@ The **Admin Dashboard** is designed to provide an user-friendly interface for ma
    ```bash
    npm start
    ```
-
 ## Usage
 - Access the dashboard by navigating to `http://localhost:3000` (or the specified port) in your browser.
 - Log in with your admin credentials (use tasneemyoussef61@gmail.com as email and tasneem123 as password).
 - Customize the dashboard by modifying the configuration files or adding new widgets.
 
 ## Demo
-- **live demo**: <a href="https://admindashboard-v1.netlify.app/login"/>Demo</a>
+- **live demo**: <a href="https://admindashboard76.netlify.app/"/>Demo</a>
 
 
 ## Contact
